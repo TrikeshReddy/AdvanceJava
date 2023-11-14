@@ -1,0 +1,33 @@
+package com.hibernate3.entity;
+
+public class Employee {
+
+	private int studId;
+	private String stuName;
+	private int grade;
+
+	public int getStudId() {
+		return studId;
+	}
+
+	public void setStudId(int studId) {
+		this.studId = studId;
+	}
+
+	public String getStuName() {
+		return stuName;
+	}
+
+	public void setStuName(String stuName) {
+		this.stuName = stuName;
+	}
+
+	public int getGrade() {
+		return grade;
+	}
+
+	public void setGrade(int grade) {
+		this.grade = grade;
+	}
+
+}

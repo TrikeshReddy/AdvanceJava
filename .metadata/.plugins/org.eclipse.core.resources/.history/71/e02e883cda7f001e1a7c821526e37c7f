@@ -1,0 +1,8 @@
+package com.hibernate3.entity;
+
+public class Employee {
+private int studId;
+private String stuName;
+private int grade;
+
+}

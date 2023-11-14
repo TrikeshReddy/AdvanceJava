@@ -1,0 +1,7 @@
+package com.hibernate3.main;
+
+public class Hibarnate3Main {
+	public static void main(String[] args) {
+
+	}
+}

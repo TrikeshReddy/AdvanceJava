@@ -1,0 +1,15 @@
+package com.entity;
+
+public class Employee {
+	private int empID;
+	private String name;
+	private int age;
+	private int deptNo;
+	public void setEmpID(int empID) {
+		this.empID=empID;
+	}
+	public int getEmpID() {
+		return this.empID;
+	}
+
+}

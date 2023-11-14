@@ -1,0 +1,25 @@
+package com.hibernate3.main;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.hibernate3.entity.Adress;
+
+
+public class Hibarnate3Main {
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) {
+		SessionFactory sessionFactory =new Configuration().configure("hibernate.configuration.xml").buildSessionFactory();
+		Session session=sessionFactory.openSession();
+		session.beginTransaction();
+		Adress adress = new Adress();
+		adress.setAddressId(1);
+		adress.setCity("hyderabad");
+		adress.setPincode(500050);
+		adress.setCountry("india");
+		session.getTransaction().commit();
+		session.close();
+		
+	}
+}

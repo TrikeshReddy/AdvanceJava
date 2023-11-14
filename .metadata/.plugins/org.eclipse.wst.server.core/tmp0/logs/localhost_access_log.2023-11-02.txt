@@ -1,0 +1,7 @@
+127.0.0.1 - - [02/Nov/2023:20:08:22 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [02/Nov/2023:20:08:24 +0530] "GET /FirstJsp/ HTTP/1.1" 200 160
+0:0:0:0:0:0:0:1 - - [02/Nov/2023:20:08:25 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [02/Nov/2023:20:08:32 +0530] "GET /FirstJsp/welcome.jsp?uname=trikesh HTTP/1.1" 500 6035
+0:0:0:0:0:0:0:1 - - [02/Nov/2023:20:11:11 +0530] "GET /FirstJsp/ HTTP/1.1" 200 160
+0:0:0:0:0:0:0:1 - - [02/Nov/2023:20:11:15 +0530] "GET /FirstJsp/welcome.jsp?uname=trikesh HTTP/1.1" 500 6035
+0:0:0:0:0:0:0:1 - - [02/Nov/2023:20:38:39 +0530] "GET /FirstJsp/welcome.jsp?uname=trikesh HTTP/1.1" 500 6018

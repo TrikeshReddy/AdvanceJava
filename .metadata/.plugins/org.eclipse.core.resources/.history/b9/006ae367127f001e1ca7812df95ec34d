@@ -1,0 +1,10 @@
+package com.main;
+
+import org.hibernate.cfg.Configuration;
+
+public class HibernateMain {
+	public static void main(String[] args) {
+		new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
+		
+	}
+}

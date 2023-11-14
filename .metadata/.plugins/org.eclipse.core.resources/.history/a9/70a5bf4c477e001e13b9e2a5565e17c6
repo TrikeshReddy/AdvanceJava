@@ -1,0 +1,7 @@
+package com.mainmethod;
+
+public class HibernateFirst {
+public static void main(String[] args) {
+	
+}
+}
