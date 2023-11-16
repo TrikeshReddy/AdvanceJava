@@ -34,15 +34,24 @@ public class Hibarnate3Main {
 		session.persist(student);
 		
 		session.getTransaction().commit();
-		TypedQuery query=session.createQuery("from Student");    
-	    List<Student> list=query.getResultList();  
-	    Iterator<Student> itr=list.iterator();    
-	    while(itr.hasNext()){    
-	    	Student student1=itr.next();    
-	     System.out.println(student1.getStudId()+" "+student1.getStuName()+" "+student1.getGrade());    
-	     Adress address=student1.getAdress();    
-	     System.out.println(address.getAddressId()+" "+address.getCity()+" "+address.getCountry()+" "+address.getPincode());    
-	    }    
+		TypedQuery typedQuery=session.createQuery("from Adress");//select * from Adress
+		List<Adress> list=typedQuery.getResultList();
+		Iterator<Adress> iter =list.iterator();
+		while(iter.hasNext()) {
+			Adress adress2=iter.next();
+			System.out.println(adress2);
+		}
+		
+		/*
+		 * TypedQuery query=session.createQuery("from Student");//select * from student
+		 * System.out.println(query); List<Student> list=query.getResultList();
+		 * Iterator<Student> itr=list.iterator(); while(itr.hasNext()){ Student
+		 * student1=itr.next();
+		 * System.out.println(student1.getStudId()+" "+student1.getStuName()+" "
+		 * +student1.getGrade()); Adress address=student1.getAdress();
+		 * System.out.println(address.getAddressId()+" "+address.getCity()+" "+address.
+		 * getCountry()+" "+address.getPincode()); }
+		 */ 
 		session.close();
 		
 	}

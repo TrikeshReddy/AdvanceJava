@@ -8,7 +8,7 @@
 		<property name="hibernate.connection.username">root</property>
 		<property name="hibernate.connection.password">root@12</property>
 		<property name="show_sql">true</property>
-		<property name="hbm2ddl.auto">update</property>
+		<property name="hbm2ddl.auto">create</property>
 		<mapping class="com.hibernate3.entity.Adress" />
 
 		<mapping class="com.hibernate3.entity.Student" />

@@ -44,12 +44,16 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.hibernate4"/>
+			<item value="hibernate3"/>
 			<item value="Hibernate2"/>
 			<item value="HibernateDay1"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="OneToMany"/>
+			<item value="hibernate3"/>
 			<item value="Hibernate2"/>
 			<item value="HibernateDay1"/>
 		</list>
