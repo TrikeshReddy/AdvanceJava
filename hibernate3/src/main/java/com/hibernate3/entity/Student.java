@@ -2,6 +2,7 @@ package com.hibernate3.entity;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
@@ -14,7 +15,7 @@ public class Student {
 	private String stuName;
 	private int grade;
 
-	@OneToOne(targetEntity=Adress.class,cascade=CascadeType.ALL) 
+	@OneToOne( targetEntity=Adress.class,cascade=CascadeType.ALL) 
 	private Adress adress;
 
 	public Adress getAdress() {

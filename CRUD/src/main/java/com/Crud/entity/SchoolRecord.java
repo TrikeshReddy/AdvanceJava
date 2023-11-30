@@ -47,4 +47,10 @@ public class SchoolRecord {
 		this.schoolId = schoolId;
 	}
 
+	@Override
+	public String toString() {
+		return "SchoolRecord [schoolName=" + schoolName + ", Locality=" + Locality + ", board=" + board + ", schoolId="
+				+ schoolId + "]";
+	}
+
 }
