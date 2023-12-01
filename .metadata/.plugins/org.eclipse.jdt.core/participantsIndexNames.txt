@@ -13,6 +13,10 @@ C:\Users\User\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jsps
 \SpringMVCMultipleViewPage\src\main\java
 C:\Users\User\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\297575423.index
 \SpringMVCMultipleViewPage\src\main\java
+C:\Users\User\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4191265168.index
+\SpringMVCAnnotations\src\main\java
+C:\Users\User\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2364648511.index
+\SpringMVCAnnotations\src\main\java
 C:\Users\User\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3087968548.index
 \com\src\main\resources
 C:\Users\User\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3797513209.index

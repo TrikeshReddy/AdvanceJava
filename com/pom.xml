@@ -9,11 +9,15 @@
 	<name>com Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
+		<!--
+		https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<version>5.1.1.RELEASE</version>
+			<version>6.1.0</version>
 		</dependency>
+
+
 		<!--
 		https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api -->
 		<dependency>
@@ -23,8 +27,9 @@
 			<scope>provided</scope>
 		</dependency>
 
+
 	</dependencies>
 	<build>
-		<finalName>com</finalName>
+		<finalName>hello</finalName>
 	</build>
 </project>

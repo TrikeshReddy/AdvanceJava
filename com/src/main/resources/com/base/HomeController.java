@@ -8,7 +8,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 	@RequestMapping("/home")
 	public String firstMethod(){
-		System.out.println("hello this method");
-		return "first";
+		
+		return "viewpage";
+	}
+	@RequestMapping("/hello")
+	public String firstMethod(){
+		
+		return "index";
 	}
 }

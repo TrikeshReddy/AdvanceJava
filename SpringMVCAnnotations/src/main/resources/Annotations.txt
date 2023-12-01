@@ -1,0 +1,15 @@
+@Controller
+
+
+@RequestMapping
+
+
+@PathVariable
+
+
+@RequestParam
+what ever data the user passes in the url u can acces it with
+
+@ModelAttribute
+@RequestBody and @ResponseBody
+@RequestHeader and @ResponseHeader
